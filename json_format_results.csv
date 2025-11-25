@@ -1,0 +1,91 @@
+id,question,type,ground_truth,model_response,input_tokens,output_tokens,total_tokens,time_taken_seconds,correct
+fr1,What is the salary of Allison Hill?,field-retrieval,59592,59592,5120,75,5195,2.641286849975586,True
+fr2,What department does Allison Hill work in?,field-retrieval,Engineering,Engineering,5120,74,5194,2.5082459449768066,True
+fr3,What is the email address of Allison Hill?,field-retrieval,allison_hill@example.com,allison_hill@example.com,5121,79,5200,4.441493034362793,True
+fr4,What is the salary of Noah Rhodes?,field-retrieval,77098,77098,5120,75,5195,2.3604519367218018,True
+fr5,What department does Noah Rhodes work in?,field-retrieval,Sales,Sales,5120,74,5194,2.692772150039673,True
+fr6,What is the email address of Noah Rhodes?,field-retrieval,noah_rhodes@example.com,noah_rhodes@example.com,5121,80,5201,1.7917237281799316,True
+fr7,What is the salary of Angie Henderson?,field-retrieval,58434,58434,5120,75,5195,1.6492540836334229,True
+fr8,What department does Angie Henderson work in?,field-retrieval,Marketing,Marketing,5120,74,5194,3.1403720378875732,True
+fr9,What is the email address of Angie Henderson?,field-retrieval,angie_henderson@example.com,angie_henderson@example.com,5121,144,5265,2.7593069076538086,True
+fr10,What is the salary of Daniel Wagner?,field-retrieval,56395,56395,5120,75,5195,1.9915411472320557,True
+fr11,What department does Daniel Wagner work in?,field-retrieval,HR,HR,5120,74,5194,1.7675750255584717,True
+fr12,What is the email address of Daniel Wagner?,field-retrieval,daniel_wagner@example.com,daniel_wagner@example.com,5121,79,5200,1.7049098014831543,True
+fr13,What is the salary of Cristian Santos?,field-retrieval,48905,48905,5120,75,5195,1.6401362419128418,True
+fr14,What department does Cristian Santos work in?,field-retrieval,Operations,Operations,5120,138,5258,2.323864221572876,True
+fr15,What is the email address of Cristian Santos?,field-retrieval,cristian_santos@example.com,cristian_santos@example.com,5121,144,5265,2.7629899978637695,True
+fr16,What is the salary of Connie Lawrence?,field-retrieval,111237,111237,5120,75,5195,1.7066140174865723,True
+fr17,What department does Connie Lawrence work in?,field-retrieval,Finance,Finance,5120,74,5194,1.4794423580169678,True
+fr18,What is the email address of Connie Lawrence?,field-retrieval,connie_lawrence@example.com,connie_lawrence@example.com,5121,144,5265,2.926121950149536,True
+fr19,What is the salary of Abigail Shaffer?,field-retrieval,71062,71062,5121,75,5196,1.768531322479248,True
+fr20,What department does Abigail Shaffer work in?,field-retrieval,Engineering,Engineering,5121,74,5195,1.6413788795471191,True
+fr21,What is the email address of Abigail Shaffer?,field-retrieval,abigail_shaffer@example.com,abigail_shaffer@example.com,5122,143,5265,3.4918699264526367,True
+fr22,What is the salary of Gina Moore?,field-retrieval,116426,116426,5120,75,5195,2.173888921737671,True
+fr23,What department does Gina Moore work in?,field-retrieval,Sales,Sales,5120,138,5258,3.1043357849121094,True
+fr24,What is the email address of Gina Moore?,field-retrieval,gina_moore@example.com,gina_moore@example.com,5121,79,5200,2.725980043411255,True
+fr25,What is the salary of Gabrielle Davis?,field-retrieval,122236,122236,5121,75,5196,2.2099289894104004,True
+fr26,What department does Gabrielle Davis work in?,field-retrieval,Marketing,Marketing,5121,138,5259,1.9395546913146973,True
+fr27,What is the email address of Gabrielle Davis?,field-retrieval,gabrielle_davis@example.com,gabrielle_davis@example.com,5122,80,5202,2.0170340538024902,True
+fr28,What is the salary of Ryan Munoz?,field-retrieval,144458,144458,5121,139,5260,2.0506181716918945,True
+fr29,What department does Ryan Munoz work in?,field-retrieval,HR,HR,5121,202,5323,2.9000048637390137,True
+fr30,What is the email address of Ryan Munoz?,field-retrieval,ryan_munoz@example.com,ryan_munoz@example.com,5122,144,5266,2.3692049980163574,True
+ag1,How many employees work in Engineering?,aggregation,17,17,5119,1418,6537,10.698882102966309,True
+ag2,How many employees work in Sales?,aggregation,17,17,5119,714,5833,5.765547037124634,True
+ag3,How many employees work in Marketing?,aggregation,17,17,5119,906,6025,8.449249982833862,True
+ag4,How many employees work in HR?,aggregation,17,17,5119,778,5897,8.779469013214111,True
+ag5,How many employees work in Operations?,aggregation,16,16,5119,1418,6537,12.156537055969238,True
+ag6,How many employees work in Finance?,aggregation,16,16,5119,714,5833,9.480182886123657,True
+ag7,How many employees have a salary greater than 50000?,aggregation,96,97,5124,3274,8398,24.304771900177002,False
+ag8,How many employees have a salary greater than 60000?,aggregation,79,79,5124,1354,6478,13.367319107055664,True
+ag9,How many employees have a salary greater than 70000?,aggregation,75,75,5124,1930,7054,23.05200505256653,True
+ag10,How many employees have a salary greater than 80000?,aggregation,61,61,5124,2122,7246,16.839707136154175,True
+ag11,How many employees have a salary greater than 90000?,aggregation,53,52,5124,1546,6670,16.51720404624939,False
+ag12,How many employees have a salary greater than 100000?,aggregation,46,46,5124,1738,6862,15.03329610824585,True
+ag13,How many employees have a salary greater than 110000?,aggregation,33,33,5124,1738,6862,12.217227935791016,True
+ag14,How many employees have a salary greater than 120000?,aggregation,26,26,5124,1546,6670,14.935502767562866,True
+ag15,How many employees have a salary greater than 130000?,aggregation,16,16,5124,1226,6350,9.987608194351196,True
+ag16,How many employees have a salary greater than 140000?,aggregation,9,9,5124,1419,6543,13.908871173858643,True
+ag17,How many employees are in the dataset?,aggregation,100,100,5120,138,5258,2.8696300983428955,True
+ag18,What is the average salary across all employees?,aggregation,94810,94809.89,5121,6285,11406,67.8686318397522,False
+ag19,How many employees are active?,aggregation,82,82,5118,1546,6664,16.596392393112183,True
+ag20,How many employees are inactive?,aggregation,18,18,5118,906,6024,7.798099994659424,True
+ag210,How many employees have more than 2 years of experience?,aggregation,93,93,5124,2058,7182,21.380568027496338,True
+ag211,How many employees have more than 5 years of experience?,aggregation,80,80,5124,3082,8206,23.85741901397705,True
+ag212,How many employees have more than 8 years of experience?,aggregation,66,66,5124,1546,6670,12.281466960906982,True
+ag213,How many employees have more than 10 years of experience?,aggregation,62,62,5124,1738,6862,14.474998950958252,True
+ag214,How many employees have more than 12 years of experience?,aggregation,59,59,5124,2954,8078,29.51576018333435,True
+ag215,How many employees have more than 15 years of experience?,aggregation,50,50,5124,1930,7054,20.6876699924469,True
+ag216,How many employees have more than 18 years of experience?,aggregation,35,35,5124,1546,6670,14.024932861328125,True
+ag217,How many employees have more than 20 years of experience?,aggregation,27,27,5124,1418,6542,16.614137887954712,True
+ag218,How many employees have more than 22 years of experience?,aggregation,14,14,5124,1930,7054,20.49949598312378,True
+ag219,How many employees have more than 24 years of experience?,aggregation,4,4,5124,1162,6286,10.183786869049072,True
+ft1,How many employees in Engineering have a salary greater than 90000?,filtering,8,7,5126,1354,6480,10.967459678649902,False
+ft2,How many employees in Sales have a salary greater than 90000?,filtering,10,9,5126,1802,6928,20.313705921173096,False
+ft3,How many employees in Marketing have a salary greater than 90000?,filtering,9,9,5126,1162,6288,11.743881940841675,True
+ft4,How many employees in HR have a salary greater than 90000?,filtering,6,4,5126,1546,6672,16.726255893707275,False
+ft5,How many employees in Operations have a salary greater than 90000?,filtering,11,11,5126,842,5968,9.211370944976807,True
+ft6,How many employees in Finance have a salary greater than 90000?,filtering,9,9,5126,971,6097,7.801030158996582,True
+ft100,How many active employees have more than 2 years of experience?,filtering,77,77,5125,2250,7375,20.104954957962036,True
+ft101,How many active employees have more than 5 years of experience?,filtering,69,69,5125,2890,8015,19.81036114692688,True
+ft102,How many active employees have more than 8 years of experience?,filtering,55,55,5125,2378,7503,18.664497137069702,True
+ft103,How many active employees have more than 10 years of experience?,filtering,52,52,5125,2826,7951,26.630228281021118,True
+ft104,How many active employees have more than 12 years of experience?,filtering,49,49,5125,2442,7567,21.06986689567566,True
+ft105,How many active employees have more than 15 years of experience?,filtering,41,41,5125,1674,6799,18.308035850524902,True
+ft106,How many active employees have more than 18 years of experience?,filtering,29,29,5125,2506,7631,23.479530096054077,True
+ft107,How many active employees have more than 20 years of experience?,filtering,23,23,5125,1930,7055,18.050446033477783,True
+ft108,How many active employees have more than 22 years of experience?,filtering,12,12,5125,1482,6607,11.678197145462036,True
+ft109,How many active employees have more than 24 years of experience?,filtering,3,3,5125,1482,6607,14.359346866607666,True
+ft200,How many active employees work in Engineering?,filtering,15,15,5120,1098,6218,15.15950894355774,True
+ft201,How many active employees work in Sales?,filtering,15,15,5120,842,5962,7.921414852142334,True
+ft202,How many active employees work in Marketing?,filtering,12,12,5120,778,5898,8.99377703666687,True
+ft203,How many active employees work in HR?,filtering,15,15,5120,970,6090,9.911012172698975,True
+ft204,How many active employees work in Operations?,filtering,11,11,5120,842,5962,8.312988042831421,True
+ft205,How many active employees work in Finance?,filtering,14,12,5120,778,5898,7.935070991516113,False
+ft300,How many employees in Engineering have more than 2 years of experience?,filtering,17,17,5126,1738,6864,14.246904850006104,True
+ft301,How many employees in Sales have more than 5 years of experience?,filtering,13,13,5126,1098,6224,9.017010927200317,True
+ft302,How many employees in Marketing have more than 8 years of experience?,filtering,12,12,5126,1546,6672,12.692357063293457,True
+ft303,How many employees in HR have more than 10 years of experience?,filtering,9,9,5126,2058,7184,23.930627822875977,True
+ft304,How many employees in Operations have more than 12 years of experience?,filtering,10,10,5126,2378,7504,25.848960161209106,True
+ft305,How many employees in Finance have more than 15 years of experience?,filtering,9,7,5126,522,5648,5.461807012557983,False
+ft306,How many employees in Engineering have more than 18 years of experience?,filtering,5,4,5126,1290,6416,12.863614082336426,False
+ft307,How many employees in Sales have more than 20 years of experience?,filtering,3,3,5126,1226,6352,13.76787519454956,True
