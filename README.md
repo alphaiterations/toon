@@ -6,6 +6,8 @@ TOON (Token Oriented Object Notation) achieves **significant token reduction** c
 
 ---
 
+Read the Complete Medium Artilce Here:[TOON vs JSON: A Comprehensive Performance Comparison](https://medium.com/towards-artificial-intelligence/toon-vs-json-a-comprehensive-performance-comparison-446a2fb82f20)
+
 ## Overview
 
 This project evaluates **TOON format** against **JSON format** when used with GPT-5-nano for data querying tasks. We measure two critical metrics:
@@ -50,25 +52,6 @@ We tested the model with **90 questions** across three categories:
 
 ---
 
-## Results
-
-### Token Count Comparison
-
-| Format | Tokens | Reduction | Cost per Call* |
-|--------|--------|-----------|----------------|
-| JSON   | X,XXX  | -         | $X.XXXXXX      |
-| TOON   | X,XXX  | X,XXX (XX.XX%) | $X.XXXXXX |
-
-_*Based on GPT-5-nano pricing of $0.150 per 1M input tokens_
-
-### Accuracy Comparison
-
-| Format | Overall | Field Retrieval | Aggregation | Filtering |
-|--------|---------|-----------------|-------------|-----------|
-| JSON   | XX.XX%  | XX.XX%          | XX.XX%      | XX.XX%    |
-| TOON   | XX.XX%  | XX.XX%          | XX.XX%      | XX.XX%    |
-
----
 
 ## Key Findings
 
@@ -87,7 +70,6 @@ _*Based on GPT-5-nano pricing of $0.150 per 1M input tokens_
 ```
 toon/
 ├── toon_json_comparison.ipynb   # Main analysis notebook
-├── toon_format.py               # TOON encoder/decoder (not included)
 ├── json_format_results.csv      # Raw JSON evaluation results
 ├── toon_format_results.csv      # Raw TOON evaluation results
 ├── requirements.txt             # Python dependencies
@@ -199,19 +181,6 @@ accuracy = (correct_answers / total_questions) * 100
 - ✨ Benchmark against other compact formats (Protobuf, MessagePack)
 - ✨ Evaluate write operations (data modification/insertion)
 
----
-
-## Cost Impact Analysis
-
-For a production application making **1 million API calls per month** with the same dataset size:
-
-| Format | Monthly Tokens | Monthly Cost* | Annual Cost* |
-|--------|---------------|---------------|--------------|
-| JSON   | XXX,XXX,XXX   | $XXX.XX       | $X,XXX.XX    |
-| TOON   | XXX,XXX,XXX   | $XXX.XX       | $X,XXX.XX    |
-| **Savings** | **XX.XX%** | **$XXX.XX/mo** | **$X,XXX.XX/yr** |
-
-_*Based on GPT-5-nano input token pricing_
 
 ---
 
